@@ -1,0 +1,7 @@
+# file: /etc/minicom/minirc.ttyUSB0
+# sudo minicom -c on ttyUSB0
+# Machine-generated file - use "minicom -s" to change parameters.
+pu port             /dev/ttyUSB0
+pu baudrate         115200
+pu rtscts           No 
+pu xonxoff          No
