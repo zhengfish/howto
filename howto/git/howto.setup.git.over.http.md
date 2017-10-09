@@ -15,7 +15,12 @@ How to setup git over HTTP
 
     Start out by installing git and apache2 using the package manager of your distribution.
     Add the modules needed by apache to enable git-over-http. These are cgi, alias and env
+
+### install and enable 3 components
+
+```
     $ a2enmod cgi alias env
+```
 
 # Reference
 - __[git-scm](https://git-scm.com/docs/git-http-backend)__ - git-http-backend - Server side implementation of Git over HTTP.
